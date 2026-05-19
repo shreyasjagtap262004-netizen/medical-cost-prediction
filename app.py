@@ -75,7 +75,7 @@ if st.button("Calculate Predicted Charges"):
         final_result = prediction.item()
         
         st.balloons()
-        st.success(f"### Estimated Annual Premium: ${final_result:,.2f}")
+        st.success(f"### Estimated Annual Premium: ₹{final_result:,.2f}")
         
         # Displaying the breakdown for the user
         with st.expander("See Input Details"):
